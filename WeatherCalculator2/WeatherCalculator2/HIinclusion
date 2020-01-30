@@ -20,7 +20,9 @@ namespace WeatherCalculator2
 
             temperature = int.Parse(input);
 
-            // determine heat index or wind chill
+            
+           
+
             bool isabove = temperature > 50;
 
             if (isabove)
